@@ -117,10 +117,10 @@ See the [wiki](https://github.com/coreybutler/nvm-windows/wiki/Common-Issues#how
 
 由于翻墙限制 `nvm` 下载的依赖包不完整， 需要手动下载（覆盖）才能使用
 
-- 1. 下载 `nvm` 安装版
-- 2. 下载指定的 `Node` 版本（最好是非安装版）http://nodejs.cn/download/ 
-- 3. 打开 `nvm` 文件路径 （C:\Users\USER_NAME\AppData\Roaming\nvm\）
-- 4. 在 `nvm` 路径中把第1步下载的node放置 `nvm` 根目录 并改名如：v12.6.0
-- 5. 如需下载多个版本重复上面步骤即可
-- 6. 通过 `nvm list` 验证是否有对应的 `Node` 版本， `nvm use 12.6.0` 进行切换
+-  下载 `nvm` 安装版
+-  下载指定的 `Node` 版本（最好是非安装版）http://nodejs.cn/download/ 
+-  打开 `nvm` 文件路径 （C:\Users\USER_NAME\AppData\Roaming\nvm\）
+-  在 `nvm` 路径中把第1步下载的node放置 `nvm` 根目录 并改名如：v12.6.0
+-  如需下载多个版本重复上面步骤即可
+-  通过 `nvm list` 验证是否有对应的 `Node` 版本， `nvm use 12.6.0` 进行切换
 
